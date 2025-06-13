@@ -31,6 +31,9 @@ artifacts/
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
+# JetBrains Rider/IDEA
+.idea/
+
 # NuGet Packages
 *.nupkg
 # NuGet Symbol Packages
