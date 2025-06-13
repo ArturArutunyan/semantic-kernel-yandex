@@ -5,6 +5,19 @@
         <LangVersion>latest</LangVersion>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <PackageId>SemanticKernel.Yandex</PackageId>
+        <Version>1.0.0</Version> 
+        <Authors>Artur Arutiunian</Authors>
+        <Description>Library for Semantic Kernel to integrate with Yandex services (GPT, SpeechKit, etc.).</Description>
+        <PackageTags>semantic-kernel, yandex, gpt, ai, speechkit, plugins</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageProjectUrl>https://github.com/artur-arutiunian/semantic-kernel-yandex</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/artur-arutiunian/semantic-kernel-yandex.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <IncludeSymbols>true</IncludeSymbols>
+    </PropertyGroup>
+    
     <ItemGroup>
       <PackageReference Include="Microsoft.SemanticKernel" Version="1.56.0" />
     </ItemGroup>
