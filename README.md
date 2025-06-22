@@ -14,7 +14,7 @@ This repository provides a Yandex GPT connector for Semantic Kernel.
 
 ### Get API Key
   1. Create a service account:
-    - Go to "Service accounts" section
+    - Go to "Identity and Access Management" section
     - Click "Create service account"
     - Fill in the name and description  
   2. Assign the *[ai.languageModels.user]* role to the service account
